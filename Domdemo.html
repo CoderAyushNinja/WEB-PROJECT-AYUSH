@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Change Background Color</title>
+    
+</head>
+<body>
+    <button id="colorButton">Change Background Color</button>
+<p id="p1">Old text</p>
+    <script >
+        var button = document.getElementById("colorButton");
+
+        button.addEventListener("click", function() {
+            document.body.style.backgroundColor = "blue";
+            var para = document.getElementById("p1");
+            para.textContent="New Text";
+        });
+    </script>
+</body>
+</html>
+<!https://dev.to/arikaturika/how-web-browsers-work-parsing-the-html-part-3-with-illustrations-45fi>
